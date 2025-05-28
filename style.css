@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: 'Bebas Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at top, #d7e6ff, #a8c7ff);
+  color: #1a2a4a; 
+  text-align: center;
+  padding: 2rem;
+  margin: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #e6f0ff; 
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(100, 150, 255, 0.3);
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #4a7eff; 
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px #a2c1ff;
+  letter-spacing: 2px;
+}
+
+#player-inputs p {
+  font-size: 1.2rem;
+  color: #4a6fc1;
+}
+
+.player-name {
+  display: block;
+  width: 80%;
+  margin: 8px auto;
+  padding: 10px;
+  background: #c6d9ff;
+  color: #1a2a4a;
+  border: 2px solid #4a7eff;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.player-name:focus {
+  border-color: #7a9fff;
+  outline: none;
+  background: #abc3ff;
+}
+
+button {
+  padding: 12px 30px;
+  background-color: #4a7eff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(74, 126, 255, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #7a9fff;
+  transform: scale(1.05);
+}
+
+#team {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.team-member {
+  background: linear-gradient(to right, #a8c7ff, #c6d9ff);
+  border: 2px solid #4a7eff;
+  padding: 8px;
+  margin: 15px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: #1a2a4a;
+  box-shadow: 0 0 20px rgba(74, 126, 255, 0.3);
+}
+
+.team-column {
+  flex: 1;
+  text-align: center;
+}
+
+.team-column h4 {
+  margin-bottom: 4px;
+  font-size: 22px;   
+  color: #7a9fff;
+  border-bottom: 1px solid #7a9fff;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.team-column p {
+  margin: 0;
+  font-size: 20px;  
+  color: #3f518f;
+}
+
